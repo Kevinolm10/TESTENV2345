@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<video autoplay muted loop id="myVideo">
+    <source src="/static/images/jogging.mp4" type="video/mp4">
+</video>
+
+<!-- Overlay content with Bootstrap classes -->
+<div class="content position-absolute top-50 start-50 translate-middle">
+    <h1>Become a pro!</h1>
+    <p>Sign up and make change</p>
+    <a href="{{ url_for('signup') }}" class="btn">Let's go</a>
+</div>
+
+{% endblock %}
