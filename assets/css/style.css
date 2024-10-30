@@ -1,40 +1,20 @@
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-
-}
-
-main {
-    flex: 1 0 auto;
-}
-
-/* Style the video: 100% width and height to cover the entire window */
-#myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
-    /* Keeps the video behind */
-}
-
 .content {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #f1f1f1;
-    text-align: center;
-    background: rgba(128, 128, 128, 0.7);
-    /* Gray with 70% opacity */
+    width: 80%;
+    max-width: 600px;
     padding: 20px;
+    text-align: center;
+    color: #f1f1f1;
+    background-color: rgba(128, 128, 128, 0.7) !important;
+    /* Ensures transparency */
     border-radius: 10px;
     z-index: 1;
-    /* Ensures content stays on top */
+    backdrop-filter: blur(5px);
+    /* Optional blur effect */
 }
-
 
 /* Style the button used to pause/play the video */
 #myBtn {
