@@ -17,15 +17,7 @@
 }
 
 /* Style the button used to pause/play the video */
-#myBtn {
-    width: 200px;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    background: #000;
-    color: #fff;
-    cursor: pointer;
-}
+
 
 #myBtn:hover {
     background: #ddd;
@@ -35,4 +27,24 @@
 .mask-custom {
     backdrop-filter: blur(8px);
     background-color: rgba(178, 60, 253, 0.4);
+}
+
+.btn {
+    border: 1px solid white;
+    color: white;
+}
+
+.btn:hover {
+    letter-spacing: 0.15em;
+    border: 1px solid white;
+    box-shadow: 0 0 35px;
+}
+
+.statement {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.hello {
+    margin-top: 20px;
 }

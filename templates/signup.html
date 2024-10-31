@@ -4,46 +4,46 @@
     <source src="{{ url_for('static', filename='images/climbingman.mp4') }}" type="video/mp4">
     Your browser does not support the video tag.
 </video>
-<form>
-    <div class="container">
+<form class="signupform">
+    <div class="container content position-absolute top-50 start-50 translate-middle">
         <!-- 2 column grid layout with text inputs for the first and last names -->
         <div class="row mb-4">
             <div class="col">
-                <div data-mdb-input-init class="form-outline">
-                    <input type="text" id="form3Example1" class="form-control" />
-                    <label class="form-label" for="form3Example1">First name</label>
+                <div data-mdb-input-init class="form-outline hello">
+                    <input type="text" id="form3Example1" class="form-control" placeholder="First Name" />
+                    <label class="form-label" for="form3Example1"></label>
                 </div>
             </div>
             <div class="col">
-                <div data-mdb-input-init class="form-outline">
-                    <input type="text" id="form3Example2" class="form-control" />
-                    <label class="form-label" for="form3Example2">Last name</label>
+                <div data-mdb-input-init class="form-outline hello">
+                    <input type="text" id="form3Example2" class="form-control" placeholder="Last Name" />
+                    <label class="form-label" for="form3Example2"></label>
                 </div>
             </div>
         </div>
 
         <!-- Email input -->
-        <div data-mdb-input-init class="form-outline mb-4">
-            <input type="email" id="form3Example3" class="form-control" />
-            <label class="form-label" for="form3Example3">Email address</label>
+        <div data-mdb-input-init class="form-outline mb-4 hello">
+            <input type="email" id="form3Example3" class="form-control" placeholder="Email Address" />
+            <label class="form-label" for="form3Example3"></label>
         </div>
 
         <!-- Password input -->
-        <div data-mdb-input-init class="form-outline mb-4">
-            <input type="password" id="form3Example4" class="form-control" />
-            <label class="form-label" for="form3Example4">Password</label>
+        <div data-mdb-input-init class="form-outline mb-4 hello">
+            <input type="password" id="form3Example4" class="form-control" placeholder="Password" />
+            <label class="form-label" for="form3Example4"></label>
         </div>
 
         <!-- Checkbox -->
-        <div class="form-check d-flex justify-content-center mb-4">
+        <div class="form-check d-flex justify-content-center mb-4 hello">
             <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
             <label class="form-check-label" for="form2Example33">
-                Subscribe to our newsletter
+                Terms of Service
             </label>
         </div>
 
         <!-- Submit button -->
-        <button data-mdb-ripple-init type="submit" class="btn btn-primary btn-block mb-4">Sign up</button>
+        <button data-mdb-ripple-init type="submit" class="btn btn-primary btn-block mb-4 hello">Sign up</button>
 
         <!-- Register buttons -->
         <div class="text-center">
